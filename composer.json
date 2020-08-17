@@ -1,0 +1,18 @@
+{
+    "name": "dustinwiseman4/murmur",
+    "description": "Composer project that iterates through csv to download image urls to a directory",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Dustin Wiseman",
+            "email": "dustinwiseman4@gmail.com"
+        }
+    ],
+	"minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Downloader\\": "src/Downloader"
+        }
+    }
+}
